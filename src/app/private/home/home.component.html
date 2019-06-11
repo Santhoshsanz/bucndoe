@@ -1,0 +1,105 @@
+<div class="home-wrapper">
+  <div class="banner">
+    <div class="d-flex justify-content-between">
+      <!-- Left Side -->
+      <div class="panel1">
+        <div class="text1">Shop from the India’s best local boutiques and designers.</div>
+        <div class="text2">Buc&Doe is the place for you to discover and buy amazing things curated by our global community.</div>
+        <button class="buc-button">Join Now</button>
+      </div>
+      <!-- Right Side -->
+      <div class="panel2">
+        <div class="d-flex flex-column">
+          <div class="d-flex add-container">
+              <span><img src="./../../../assets/images/group-2.svg"></span>
+            <span>One-of-a-kind Boutiques</span>
+          </div>
+          <div class="d-flex add-container">
+              <span><img src="./../../../assets/images/group-3.svg"></span>
+            <span>Amazing Designers</span>
+          </div>
+          <div class="d-flex add-container">
+              <span><img src="./../../../assets/images/group-4.svg"></span>
+            <span>Gift Wrapped</span>
+          </div>
+          <div class="d-flex add-container">
+            <span><img src="./../../../assets/images/group-5.svg"></span>
+            <span>Discover, Collect, Curate, Win Rewards </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+      <div class="card" *ngFor="let collection of collections">
+        <img class="card-img-top" [src]="collection.img" alt="Card image cap">
+        <div class="card-body">
+          <div style="width:80%;display:inline-block">
+              <h5 class="card-title">{{collection.name}}</h5>
+              <p class="card-text">{{collection.author}}</p>
+              <p class="card-text card-text2">${{collection.rate}}</p>
+          </div>
+          <div style="width:20%" style="float:right">
+              <img class="ellise" src="./../../../assets/images/ellipse/group-copy.png">
+          </div>
+        </div>
+        <!-- <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div> -->
+      </div>
+      <div class="card">
+          <div class="card-body">
+            <div class="d-flex justify-content-center flex-column side-column align-items-center">
+              <div class="logoCard">
+                <img [src]="logo" style="width: 146.7px;height: 60px;">
+              </div>
+              <div class="text1">
+                  Buck&Doe is more fun 
+                  with friends
+              </div>
+              <div class="text2">
+                  Log in to see what your 
+                  friends are up to.
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div> -->
+        </div>
+    </div>
+    <div class="card-deck mb-21">
+        <div class="card" *ngFor="let collection of collections2">
+          <img class="card-img-top" [src]="collection.img" alt="Card image cap">
+          <div class="card-body">
+            <div style="width:80%;display:inline-block">
+                <h5 class="card-title">{{collection.name}}</h5>
+                <p class="card-text">{{collection.author}}</p>
+                <p class="card-text card-text2">${{collection.rate}}</p>
+            </div>
+            <div style="width:20%" style="float:right">
+                <img class="ellise" src="./../../../assets/images/ellipse/group-copy.png">
+            </div>
+          </div>
+          <!-- <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div> -->
+        </div>
+        <div class="card">
+            <img class="card-img-top" [src]="collection.img" alt="Card image cap">
+            <div class="card-body">
+              <div style="width:80%;display:inline-block">
+                  <h5 class="card-title">Title</h5>
+                  <p class="card-text">Text</p>
+                  <p class="card-text card-text2">text</p>
+              </div>
+              <div style="width:20%" style="float:right">
+                  <img class="ellise" src="">
+              </div>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+      </div>
+</div>

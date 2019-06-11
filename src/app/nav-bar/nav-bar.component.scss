@@ -1,0 +1,18 @@
+.nav-container {
+    min-height: 58px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.13);
+    background-color: #fcfcfc;
+    .menuItem {
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        color: #222222;
+        padding: 18px 37px
+    }
+    .menuItem:first-child {
+        margin-left: 13px;
+    }
+}

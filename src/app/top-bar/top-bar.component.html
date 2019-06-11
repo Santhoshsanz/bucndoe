@@ -1,0 +1,38 @@
+<div class="topBar">
+  <div class="h100 m50">
+    <div class="d-flex justify-content-between align-items-center h100">
+      <!-- Logo -->
+      <div class="logo">
+        <img [src]="logo">
+      </div>
+      <!-- Search Box -->
+      <div style="margin:0px 40.5px;width: 54%;">
+        <div class="input-group mb-3 buc-input d-flex justify-content-center">
+          <input type="text" class="form-control" placeholder="Search Products, Boutiques, Designers" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">
+              <img [src]="searchIcon">
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- Notifications / Cart / Chat -->
+      <div class="d-flex justify-content-center">
+        <span>Sign Up/Join</span>
+        <span>
+          <img [src]="chatIcon" class="fill-1 chat">
+        </span>
+        <span>
+          <img [src]="bellIcon" class="group-3">
+        </span>
+        <span>
+          <div class="line-2"></div>
+        </span>
+        <span>
+          <img [src]="cartIcon" class="fill-1">
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+.topBar {
+    height: 178px;
+    overflow: hidden;
+    background-color: #fcfcfc;
+}
+
+.logo>img {
+    width: 162.6px;
+    height: 66.5px;
+    object-fit: contain;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.m50 {
+    margin: 0px 50px;
+}
+
+.buc-input {
+    input.form-control {
+        height: 54px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        border-color: #bbbbbb;
+        max-width: 683px;
+    }
+    span.input-group-text {
+        background-color: #fd6b6b;
+        width: 57px;
+        padding: 0px 16px;
+    }
+    .form-control:focus {
+        border: none;
+    }
+}
+
+.fill-1 {
+    width: 26px;
+    height: 24.5px;
+    object-fit: contain; // background-color: #999999;
+}
+
+.group-3 {
+    width: 24px;
+    height: 25.7px;
+    object-fit: contain;
+}
+
+.line-2 {
+    width: 2px;
+    height: 37px;
+    border: solid 1px #979797;
+    margin: 0px 14px 0px 25px
+}
+
+.chat {
+    margin: 0px 21px 0px 33px
+}
